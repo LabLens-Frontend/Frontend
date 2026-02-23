@@ -5,6 +5,6 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1>Welcome to JMU LabLens</h1>
+    <App/>
   </StrictMode>,
 )
