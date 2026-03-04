@@ -1,17 +1,14 @@
 .aside {
+    display: flex;
+    justify-content: left;
     width: 200px;
     height: 500px;
-    background-color: lightblue;
+    background-color: mediumpurple;
     padding: 20px;
-    margin-left: 0;
-    border-right: 2px solid white;
-    margin-top: 30%;
 }
 
-ul li {
-    color: red;
-}
-
-main {
-    display: flex;
+.aside ul li a{
+    color: black;
+    font-weight: 200;
+    list-style-type: none;
 }

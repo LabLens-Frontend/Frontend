@@ -4,16 +4,14 @@ import '../../css/Header.css'
 const Header = () => {
     return (
         <>
-            <main>
-                <nav className='header'>
-                    <h2>Buildings</h2>
-                    <nav>
-                        <ul className='graph'>
-                            <li> <a href='./pages/Graph.jsx'>Graph View</a ></li>
-                        </ul>
-                    </nav>
+            <header>
+                <h2>Buildings</h2>
+                <nav>
+                    <ul>
+                        <li><img src='src/assets/images/Graph.jpg' width='25'/></li>
+                    </ul>
                 </nav>
-            </main>
+            </header>
         </>
     )
 }

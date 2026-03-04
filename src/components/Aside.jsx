@@ -4,10 +4,10 @@ import '../../css/Aside.css'
 const Aside = () => {
     return (
         <>
-            <main>
-                <nav className='aside'>
+            <main className='aside'>
+                <nav>
                     <h2>Labrooms</h2>
-                    <ul className='labrooms'>
+                    <ul>
                         <li> <a href='./Labroom-layout.jsx'>Placeholder - Lab room 2020</a ></li>
                     </ul>
                 </nav>

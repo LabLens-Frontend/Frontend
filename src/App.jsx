@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { io } from 'socket.io-client';
 import './App.css';
 import '/css/styles.css';
+import Aside from './components/Aside'
+import Header from './components/Header'
 
 // Connect to the Express server
 const socket = io('http://localhost:3001');
@@ -27,6 +29,8 @@ export default function App() {
 
   return (
   <div>
+    <Header />
+    <Aside />
   </div>
   );
 }
